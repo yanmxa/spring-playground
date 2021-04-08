@@ -1,0 +1,19 @@
+2021-04-08 16:17:14.620 [ main ] - [ INFO  ] [ com.node.LogTest : 13 ] - 记录信息日志
+2021-04-08 16:17:14.661 [ main ] - [ WARN  ] [ com.node.LogTest : 14 ] - 记录警告日志
+2021-04-08 16:17:14.662 [ main ] - [ ERROR ] [ com.node.LogTest : 15 ] - 记录错误日志
+2021-04-08 16:20:11.361 [ main ] - [ INFO  ] [ com.node.LogWithLomboxTest : 10 ] - 记录信息日志 lombok
+2021-04-08 16:20:11.365 [ main ] - [ WARN  ] [ com.node.LogWithLomboxTest : 11 ] - 记录警告日志 lombok
+2021-04-08 16:20:11.370 [ main ] - [ ERROR ] [ com.node.LogWithLomboxTest : 12 ] - 记录错误日志 lombok
+2021-04-08 16:25:34.518 [ main ] - [ INFO  ] [ com.node.LogWithLomboxTest : 10 ] - 记录信息日志 lombok
+2021-04-08 16:25:34.522 [ main ] - [ WARN  ] [ com.node.LogWithLomboxTest : 11 ] - 记录警告日志 lombok
+2021-04-08 16:25:34.523 [ main ] - [ ERROR ] [ com.node.LogWithLomboxTest : 12 ] - 记录错误日志 lombok
+2021-04-08 16:26:06.459 [ main ] - [ INFO  ] [ com.node.LogWithLomboxTest : 10 ] - 记录信息日志 lombok
+2021-04-08 16:26:06.464 [ main ] - [ WARN  ] [ com.node.LogWithLomboxTest : 11 ] - 记录警告日志 lombok
+2021-04-08 16:26:06.464 [ main ] - [ ERROR ] [ com.node.LogWithLomboxTest : 12 ] - 记录错误日志 lombok
+2021-04-08 16:27:03.618 [ main ] - [ INFO  ] [ com.node.LogWithLomboxTest : 10 ] - 记录信息日志 lombok
+2021-04-08 16:27:03.631 [ main ] - [ WARN  ] [ com.node.LogWithLomboxTest : 11 ] - 记录警告日志 lombok
+2021-04-08 16:27:03.636 [ main ] - [ ERROR ] [ com.node.LogWithLomboxTest : 12 ] - 记录错误日志 lombok
+2021-04-08 16:27:35.360 [ main ] - [ WARN  ] [ com.node.LogWithLomboxTest : 11 ] - 记录警告日志 lombok
+2021-04-08 16:27:35.360 [ main ] - [ WARN  ] [ com.node.LogWithLomboxTest : 11 ] - 记录警告日志 lombok
+2021-04-08 16:27:35.365 [ main ] - [ ERROR ] [ com.node.LogWithLomboxTest : 12 ] - 记录错误日志 lombok
+2021-04-08 16:27:35.365 [ main ] - [ ERROR ] [ com.node.LogWithLomboxTest : 12 ] - 记录错误日志 lombok

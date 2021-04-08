@@ -1,0 +1,4 @@
+logging:
+#  config: classpath:logback-${spring.profiles.active}-spring.xml
+  level:
+    root: warn
