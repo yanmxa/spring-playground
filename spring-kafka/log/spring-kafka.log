@@ -1,0 +1,102 @@
+2021-04-09 16:58:41.368 [ main ] - [ INFO  ] [ com.unique.KafkaTest : 55 ] - Starting KafkaTest using Java 1.8.0_161 on noodles with PID 14358 (started by yanmeng in /Users/yanmeng/workspace/IdeaProjects/spring-playground/spring-kafka)
+2021-04-09 16:58:41.372 [ main ] - [ INFO  ] [ com.unique.KafkaTest : 662 ] - No active profile set, falling back to default profiles: default
+2021-04-09 16:58:43.254 [ main ] - [ INFO  ] [ com.unique.KafkaTest : 61 ] - Started KafkaTest in 8.327 seconds (JVM running for 11.034)
+2021-04-09 16:58:43.917 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 0' to topic='batch.topicDemo'
+2021-04-09 16:58:43.963 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 1' to topic='batch.topicDemo'
+2021-04-09 16:58:43.964 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 2' to topic='batch.topicDemo'
+2021-04-09 16:58:43.965 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 3' to topic='batch.topicDemo'
+2021-04-09 16:58:43.965 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 4' to topic='batch.topicDemo'
+2021-04-09 16:58:43.966 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 5' to topic='batch.topicDemo'
+2021-04-09 16:58:43.967 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 6' to topic='batch.topicDemo'
+2021-04-09 16:58:43.967 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 7' to topic='batch.topicDemo'
+2021-04-09 16:58:43.968 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 8' to topic='batch.topicDemo'
+2021-04-09 16:58:43.969 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 9' to topic='batch.topicDemo'
+2021-04-09 16:58:43.970 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 10' to topic='batch.topicDemo'
+2021-04-09 16:58:43.971 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 11' to topic='batch.topicDemo'
+2021-04-09 16:58:43.971 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 12' to topic='batch.topicDemo'
+2021-04-09 16:58:43.972 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 13' to topic='batch.topicDemo'
+2021-04-09 16:58:43.972 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 14' to topic='batch.topicDemo'
+2021-04-09 16:58:43.973 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 15' to topic='batch.topicDemo'
+2021-04-09 16:58:43.973 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 16' to topic='batch.topicDemo'
+2021-04-09 16:58:43.974 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 17' to topic='batch.topicDemo'
+2021-04-09 16:58:43.974 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 18' to topic='batch.topicDemo'
+2021-04-09 16:58:43.974 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 19' to topic='batch.topicDemo'
+2021-04-09 16:58:44.033 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 25 ] - start of batch receive
+2021-04-09 16:58:44.033 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 1-0 message = message 0
+2021-04-09 16:58:44.034 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 31 ] - end of batch receive
+2021-04-09 16:58:44.061 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 25 ] - start of batch receive
+2021-04-09 16:58:44.061 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-0 message = message 1
+2021-04-09 16:58:44.062 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-1 message = message 2
+2021-04-09 16:58:44.062 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-2 message = message 3
+2021-04-09 16:58:44.062 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-3 message = message 5
+2021-04-09 16:58:44.063 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 1-1 message = message 4
+2021-04-09 16:58:44.063 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 1-2 message = message 6
+2021-04-09 16:58:44.063 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 31 ] - end of batch receive
+2021-04-09 16:58:44.070 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 25 ] - start of batch receive
+2021-04-09 16:58:44.070 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-4 message = message 7
+2021-04-09 16:58:44.071 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-5 message = message 8
+2021-04-09 16:58:44.071 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-6 message = message 9
+2021-04-09 16:58:44.071 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-7 message = message 10
+2021-04-09 16:58:44.071 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-8 message = message 11
+2021-04-09 16:58:44.071 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-9 message = message 12
+2021-04-09 16:58:44.072 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-10 message = message 13
+2021-04-09 16:58:44.072 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-11 message = message 14
+2021-04-09 16:58:44.072 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-12 message = message 15
+2021-04-09 16:58:44.072 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-13 message = message 16
+2021-04-09 16:58:44.072 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 31 ] - end of batch receive
+2021-04-09 16:58:44.077 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 25 ] - start of batch receive
+2021-04-09 16:58:44.077 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-14 message = message 17
+2021-04-09 16:58:44.078 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-15 message = message 18
+2021-04-09 16:58:44.078 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-16 message = message 19
+2021-04-09 16:58:44.078 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 31 ] - end of batch receive
+2021-04-09 17:01:11.273 [ main ] - [ INFO  ] [ com.unique.KafkaTest : 55 ] - Starting KafkaTest using Java 1.8.0_161 on noodles with PID 14628 (started by yanmeng in /Users/yanmeng/workspace/IdeaProjects/spring-playground/spring-kafka)
+2021-04-09 17:01:11.277 [ main ] - [ INFO  ] [ com.unique.KafkaTest : 662 ] - No active profile set, falling back to default profiles: default
+2021-04-09 17:01:12.942 [ main ] - [ INFO  ] [ com.unique.KafkaTest : 61 ] - Started KafkaTest in 8.227 seconds (JVM running for 10.454)
+2021-04-09 17:01:13.675 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 0' to topic='batch.topicDemo'
+2021-04-09 17:01:13.749 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 1' to topic='batch.topicDemo'
+2021-04-09 17:01:13.750 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 2' to topic='batch.topicDemo'
+2021-04-09 17:01:13.751 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 3' to topic='batch.topicDemo'
+2021-04-09 17:01:13.752 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 4' to topic='batch.topicDemo'
+2021-04-09 17:01:13.753 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 5' to topic='batch.topicDemo'
+2021-04-09 17:01:13.754 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 6' to topic='batch.topicDemo'
+2021-04-09 17:01:13.754 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 7' to topic='batch.topicDemo'
+2021-04-09 17:01:13.757 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 8' to topic='batch.topicDemo'
+2021-04-09 17:01:13.759 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 9' to topic='batch.topicDemo'
+2021-04-09 17:01:13.760 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 10' to topic='batch.topicDemo'
+2021-04-09 17:01:13.761 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 11' to topic='batch.topicDemo'
+2021-04-09 17:01:13.761 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 12' to topic='batch.topicDemo'
+2021-04-09 17:01:13.761 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 13' to topic='batch.topicDemo'
+2021-04-09 17:01:13.762 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 14' to topic='batch.topicDemo'
+2021-04-09 17:01:13.763 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 15' to topic='batch.topicDemo'
+2021-04-09 17:01:13.766 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 16' to topic='batch.topicDemo'
+2021-04-09 17:01:13.767 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 17' to topic='batch.topicDemo'
+2021-04-09 17:01:13.768 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 18' to topic='batch.topicDemo'
+2021-04-09 17:01:13.768 [ main ] - [ INFO  ] [ com.unique.kafka.producer.Sender : 16 ] - sending data='message 19' to topic='batch.topicDemo'
+2021-04-09 17:01:13.815 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 25 ] - start of batch receive
+2021-04-09 17:01:13.816 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 1-0 message = message 0
+2021-04-09 17:01:13.817 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 31 ] - end of batch receive
+2021-04-09 17:01:13.855 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 25 ] - start of batch receive
+2021-04-09 17:01:13.856 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-0 message = message 1
+2021-04-09 17:01:13.856 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-1 message = message 2
+2021-04-09 17:01:13.857 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-2 message = message 4
+2021-04-09 17:01:13.857 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 1-1 message = message 3
+2021-04-09 17:01:13.858 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 1-2 message = message 5
+2021-04-09 17:01:13.858 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 31 ] - end of batch receive
+2021-04-09 17:01:13.866 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 25 ] - start of batch receive
+2021-04-09 17:01:13.867 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-3 message = message 6
+2021-04-09 17:01:13.867 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-4 message = message 7
+2021-04-09 17:01:13.868 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-5 message = message 8
+2021-04-09 17:01:13.868 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-6 message = message 9
+2021-04-09 17:01:13.868 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-7 message = message 10
+2021-04-09 17:01:13.868 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-8 message = message 11
+2021-04-09 17:01:13.869 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-9 message = message 12
+2021-04-09 17:01:13.869 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-10 message = message 13
+2021-04-09 17:01:13.869 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-11 message = message 14
+2021-04-09 17:01:13.870 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-12 message = message 15
+2021-04-09 17:01:13.870 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 31 ] - end of batch receive
+2021-04-09 17:01:13.876 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 25 ] - start of batch receive
+2021-04-09 17:01:13.877 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-13 message = message 16
+2021-04-09 17:01:13.877 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-14 message = message 17
+2021-04-09 17:01:13.877 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-15 message = message 18
+2021-04-09 17:01:13.877 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 27 ] - received Partition-Offset = 0-16 message = message 19
+2021-04-09 17:01:13.878 [ org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1 ] - [ INFO  ] [ com.unique.kafka.consumer.Receiver : 31 ] - end of batch receive
